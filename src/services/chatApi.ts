@@ -9,8 +9,8 @@ export interface ChatResponse {
   error?: string;
 }
 
-// Point frontend to backend running on port 3001
-const API_BASE_URL = 'http://localhost:3001';
+// Point frontend to live backend on Render
+const API_BASE_URL = 'https://arfanriazphotography.onrender.com';
 
 export class ChatApiService {
   private conversation: Array<{ role: string; content: string }> = [];
