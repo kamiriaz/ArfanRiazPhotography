@@ -30,7 +30,6 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
  // <-- replace with your real key
-});
 
 // ---------------------
 // Health check endpoint
